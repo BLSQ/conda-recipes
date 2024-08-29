@@ -1,6 +1,6 @@
 {% set name = "openhexa.sdk" %}
-{% set version = '0.1.48' %}
-{% set sha = "e71d907efa9d55751e874b115c468f1e639a0741137b67ad149aac2b8bef2fb3" %}
+{% set version = '0.3.0' %}
+{% set sha = "fcaf8dc8c99801d33bcdce8671aeba2ca74b94261e1b538579e3cba2e23880dc" %}
 
 package:
   name: {{ name|lower }}
@@ -30,7 +30,7 @@ requirements:
     - requests>=2.31
     - pyyaml
     - click>=8.1.3,<8.2.dev0
-    - jinja2==3.1.4
+    - jinja2>3,<4
     - docker-py
 
 test:

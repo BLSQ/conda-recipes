@@ -1,6 +1,6 @@
 {% set name = "openhexa.toolbox" %}
-{% set version = "0.2.5" %}
-{% set sha = "9ae2b54045a665c34d0df74dda997939df1f285aabe9a65c768bcf7b049de1ea" %}
+{% set version = "1.1.0" %}
+{% set sha = "187df6ebbc718d6aa9498b1b897c84cddae4c23f05c3de9d8a9a656dae304bbb" %}
 
 package:
   name: {{ name|lower }}
