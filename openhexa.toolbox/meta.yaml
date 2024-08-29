@@ -1,5 +1,6 @@
 {% set name = "openhexa.toolbox" %}
 {% set version = "0.2.5" %}
+{% set sha = "9ae2b54045a665c34d0df74dda997939df1f285aabe9a65c768bcf7b049de1ea" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openhexa_toolbox-{{ version }}.tar.gz
-  sha256: 9ae2b54045a665c34d0df74dda997939df1f285aabe9a65c768bcf7b049de1ea
+  sha256: {{ sha }}
 
 build:
   noarch: python

@@ -1,5 +1,6 @@
 {% set name = "openhexa.sdk" %}
 {% set version = '0.1.48' %}
+{% set sha = "e71d907efa9d55751e874b115c468f1e639a0741137b67ad149aac2b8bef2fb3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openhexa_sdk-{{ version }}.tar.gz
-  sha256: e71d907efa9d55751e874b115c468f1e639a0741137b67ad149aac2b8bef2fb3
+  sha256: {{ sha }}
 
 build:
   entry_points:
