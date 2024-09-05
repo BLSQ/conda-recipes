@@ -1,6 +1,6 @@
 {% set name = "openhexa.sdk" %}
-{% set version = '0.3.0' %}
-{% set sha = "fcaf8dc8c99801d33bcdce8671aeba2ca74b94261e1b538579e3cba2e23880dc" %}
+{% set version = '0.3.1' %}
+{% set sha = "f92a4915bdc6baa0296642bfd3f1a473b3e0b0f4408dfcbbbd1221362451c735" %}
 
 package:
   name: {{ name|lower }}
