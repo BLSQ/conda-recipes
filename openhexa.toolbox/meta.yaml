@@ -1,6 +1,6 @@
 {% set name = "openhexa.toolbox" %}
-{% set version = "1.1.0" %}
-{% set sha = "187df6ebbc718d6aa9498b1b897c84cddae4c23f05c3de9d8a9a656dae304bbb" %}
+{% set version = "1.4.3" %}
+{% set sha = "320a0759b857c4f191c3fa13890436d38fd08e8779d98bdc55c87e5c705db8e9" %}
 
 package:
   name: {{ name|lower }}
@@ -31,6 +31,12 @@ requirements:
     - polars
     - diskcache
     - pyjwt
+    - cdsapi >=0.7.3
+    - cads-api-client >=1.4.0
+    - rasterio
+    - cfgrib
+    - xarray
+    - epiweeks
 
 test:
   imports:

@@ -1,6 +1,6 @@
 {% set name = "openhexa.sdk" %}
-{% set version = '0.3.1' %}
-{% set sha = "f92a4915bdc6baa0296642bfd3f1a473b3e0b0f4408dfcbbbd1221362451c735" %}
+{% set version = '1.0.0' %}
+{% set sha = "6835b7a8965a4652c922d871a15eedbaa2043cae4a661d84d0e7814e9dd97d11" %}
 
 package:
   name: {{ name|lower }}
@@ -32,6 +32,12 @@ requirements:
     - click>=8.1.3,<8.2.dev0
     - jinja2>3,<4
     - docker-py
+    - geopandas
+    - pandas>=2.0,<2.3
+    - rasterio
+    - rasterstats
+    - SQLAlchemy~=2.0.9
+    - psycopg2
 
 test:
   imports:
